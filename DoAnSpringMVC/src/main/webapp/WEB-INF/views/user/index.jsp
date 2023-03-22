@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -109,10 +110,12 @@ Body Section
 		<div class="span9">
 			<div class="well np">
 				<div id="myCarousel" class="carousel slide homCar">
+				
 					<div class="carousel-inner">
+						<p> ${ slides.size() } </p>
 						<div class="item">
 							<img style="width: 100%"
-								src="assets/img/bootstrap_free-ecommerce.png"
+								src="<c:url value="/assets/user/img/slide/adidas.png"/>"
 								alt="bootstrap ecommerce templates">
 							<div class="carousel-caption">
 								<h4>Bootstrap shopping cart</h4>
@@ -122,7 +125,7 @@ Body Section
 							</div>
 						</div>
 						<div class="item">
-							<img style="width: 100%" src="assets/img/carousel1.png"
+							<img style="width: 100%" src="<c:url value="/assets/user/img/slide/human.jpg"/>"
 								alt="bootstrap ecommerce templates">
 							<div class="carousel-caption">
 								<h4>Bootstrap Ecommerce template</h4>
@@ -132,7 +135,7 @@ Body Section
 							</div>
 						</div>
 						<div class="item active">
-							<img style="width: 100%" src="assets/img/carousel3.png"
+							<img style="width: 100%" src="<c:url value="/assets/user/img/slide/jordan.jpg"/>"
 								alt="bootstrap ecommerce templates">
 							<div class="carousel-caption">
 								<h4>Twitter Bootstrap cart</h4>
@@ -142,7 +145,7 @@ Body Section
 							</div>
 						</div>
 						<div class="item">
-							<img style="width: 100%" src="assets/img/bootstrap-templates.png"
+							<img style="width: 100%" src="<c:url value="/assets/user/img/slide/muller.jpg"/>"
 								alt="bootstrap templates">
 							<div class="carousel-caption">
 								<h4>Bootstrap templates integration</h4>

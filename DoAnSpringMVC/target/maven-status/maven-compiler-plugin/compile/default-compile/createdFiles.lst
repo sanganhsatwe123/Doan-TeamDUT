@@ -1,1 +1,4 @@
-DoAnSpringMVC\Controller\HomeController.class
+DoAnSpringMVC\Dao\SlidesDao.class
+DoAnSpringMVC\Entity\Slides.class
+DoAnSpringMVC\Dao\SlidesDao$1.class
+DoAnSpringMVC\Controller\User\HomeController.class
