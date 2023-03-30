@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+
+		
+    <decorator name="trang-chu" page="web.jsp">
+       <pattern>/trang-chu</pattern>
+    </decorator>
+     <decorator name="profile" page="web.jsp">
+       <pattern>/profile</pattern>
+    </decorator>
+    
+    <decorator name="home" page="admin.jsp">
+       <pattern>/home</pattern>
+      
+    </decorator>
+    <decorator name="home" page="admin.jsp">
+       <pattern>/quanlyuser</pattern>
+    </decorator>
+    
+	<decorator name="home" page="admin.jsp">
+       <pattern>/quanlyproduct</pattern>
+    </decorator>
+    
+    <decorator name="home" page="admin.jsp">
+       <pattern>/quanlyhoadon</pattern>
+    </decorator>
+    
+        <decorator name="home" page="admin.jsp">
+       <pattern>/quanlykhachhang</pattern>
+    </decorator>
+    <decorator name="home" page="admin.jsp">
+       <pattern>/quanlyslides</pattern>
+    </decorator>
+      <decorator name="home" page="admin.jsp">
+       <pattern>/addBill</pattern>
+    </decorator>
+    
+          <decorator name="home" page="admin.jsp">
+       <pattern>/addproduct</pattern>
+    </decorator>
+    
+    	<decorator name="user" page="user.jsp">
+		<pattern>/trang-chu/*</pattern>
+	</decorator>
+	<decorator name="user" page="user.jsp">
+		<pattern>/*</pattern>
+	</decorator>
+	
+	<decorator name="admin" page="admin.jsp">
+		<pattern>/quan-tri/*</pattern>
+	</decorator>
+    
+    
+</decorators>
